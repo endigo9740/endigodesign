@@ -10,6 +10,7 @@
 	</div>
 	<div id="innerBody">
 		<section class="cell">
+			<?php if(isset($video)){ echo '<iframe id="video" width="320" height="180" src="'.$video.'?rel=0" frameborder="0" allowfullscreen></iframe>'; } ?>
 			<?php
 				if(isset($setMobile)){
 					echo '<ul id="setMobile">'.$setMobile.'</ul>';

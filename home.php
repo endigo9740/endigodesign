@@ -9,9 +9,14 @@
 		<section class="cell">
 			<div id="timeline">
 				<div class="entry">
+					<span>2013 to 2014</span>
+					<h4>Lead Developer for Sq1 Digital Agency</h4>
+					<p>I'm currently employed as the Lead Developer for <a href="http://sq1.com/" target="_blank">Sq1 Digital Agency</a>. I manage a handful of developers on a variety of high profile projects. Our clients include several well known brands in a varety of industries.</p>
+				</div>
+				<div class="entry">
 					<span>2012 to 2013</span>
 					<h4>Mobile Web Developer for Belo Corporation</h4>
-					<p>I’m currently the sole Mobile Web Developer for the company and support 15 television news stations in major cities all across the country. I help build and maintain content for our hybrid mobile apps for each station, as well as our recently launched national app WeatherCaster.</p>
+					<p>I worked as the sole Mobile Web Developer for the company and support 15 television news stations in major cities all across the country. Built and maintain content for hybrid mobile apps for each station, as well as a national mobile app called WeatherCaster.</p>
 				</div>
 				<div class="entry">
 					<span>2010 to 2012</span>
@@ -47,7 +52,7 @@
 			<div class="column" id="columnLeft">
 				<img src="img/skill_standards.png" alt="StandardsIcon">
 				<h5>Modern Web Standards</h5>
-				<p>I utilize the lastest web standards to ensure all projects work fast and effectiently on all devices.</p>
+				<p>I utilize the latest web standards to ensure all projects work fast and efficiently on all devices.</p>
 			</div>
 			<div class="column" id="columnCenter">
 				<img src="img/skill_trends.png" alt="TrendsIcon">

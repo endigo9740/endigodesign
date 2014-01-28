@@ -35,6 +35,9 @@ if(!isset($currentProject)){
 				};
 				$setDesktop = implode("\n", $setDesktop);
 			}
+			if( isset( $projectData['video'] ) ){
+				$video =  $projectData['video'];
+			}
 		}
 	}
 }
@@ -75,18 +78,21 @@ if(!isset($currentProject)){
 		<a name="footer"><!-- anchor --></a>
 		<div id="contact">
 			<section class="cell">
-				<div id="about">
+				<div id="about" style="float: none; margin: auto;">
 					<img src="img/typography_footer.png" id="typoFooter" alt="I Heart Responsive Design">
 					<a href="resume_low.pdf" id="resume" target="_blank">Download <strong>Resume</strong></a>
 					<img src="img/portrait.png" id="portrait" alt="Portrait">
-					<p>You can download a high quality version of my resume above or <a href="https://docs.google.com/document/d/1JW6vAQvfEr-rqN9lSwpQNmTzfc2bNt5wIJxstOOmpZ4/edit?usp=sharing" target="_blank">view a Google Docs version</a> here. If you have any questions about my work or feel like I would make a great addition to your team please contact me using the provided form.</p>
+					<p>You may <a href="https://docs.google.com/document/d/1JW6vAQvfEr-rqN9lSwpQNmTzfc2bNt5wIJxstOOmpZ4/edit?usp=sharing" target="_blank">view my resume here</a>. If you have any questions about my work or feel like I would make a great addition to your team please contact me at <a href="mailto:chris@endigodesign.com">chris@endigodesign.com</a>.</p>
+					<!-- <p>You can download a high quality version of my resume above or <a href="https://docs.google.com/document/d/1JW6vAQvfEr-rqN9lSwpQNmTzfc2bNt5wIJxstOOmpZ4/edit?usp=sharing" target="_blank">view a Google Docs version</a> here. If you have any questions about my work or feel like I would make a great addition to your team please contact me using the provided form.</p> -->
 				</div>
+				<!--
 				<form id="contactForm" method="post" action="email.php">
 					<input type="text" name="name"  id="name"placeholder="Full Name">
 					<input type="email" name="email" id="email" placeholder="Email Address">
-					<textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+					<textarea name="message" id="message" cols="30" rows="8" placeholder="Your Message"></textarea>
 					<button type="submit" id="submitForm" class="button">Send</button>
 				</form>
+				-->
 			</section>
 		</div>
 		<div id="bottomInfo">

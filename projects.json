@@ -1,5 +1,35 @@
 {
     "projects": {
+         "jiffylube": {
+            "title": "Jiffy Lube Marketing Portal",
+            "type": "Custom MVC-Based CMS Portal",
+            "description": "A portal system for Jiffy Lube that allows franchise members to create marking on a market level. I was the sole developer responsible for the backend systems. The project was developed from the ground up using a custom PHP MVC (model view controller) software pattern and designed to work around Jiffy Lube's business logic. A restful API is used to populate data into the frontend, powered by AngularJS.",
+            "url": "http://offers.jiffylube.com/?adi=109",
+            "thumbnail": "img/project_jiffylube.jpg",
+            "imgMobile": {
+                "img001": "img/project_jiffylube_mobile.jpg"
+            },
+            "imgDesktop": {
+                "img001": "img/project_jiffylube_desktop.jpg"
+            }
+        },
+        "titan": {
+            "title": "Titan",
+            "type": "Custom Minecraft Map",
+            "description": "The follow up to my Minecraft adventure map series. I stepped up my game and brought a new level of design, gameplay, and story for players to enjoy. This hobby project took around 6 months to complete and has been played by some of the biggest Let's Play members in the community.",
+            "url": "http://endigodesign.com/minecraft/Titan.zip",
+            "thumbnail": "img/project_titan.jpg",
+            "imgMobile": {
+                "img001": "img/project_titan_m001.jpg",
+                "img002": "img/project_titan_m002.jpg",
+                "img003": "img/project_titan_m003.jpg"
+            },
+            "imgDesktop": {
+                "img001": "img/project_titan_d001.jpg",
+                "img002": "img/project_titan_d002.jpg"
+            },
+            "video": "//www.youtube.com/embed/UZ3ZIwTq2ig"
+        },
         "weathercaster": {
             "title": "WeatherCaster",
             "type": "Responsive Website Design",
@@ -16,7 +46,7 @@
         "thesource": {
             "title": "The Source",
             "type": "Custom Minecraft Map",
-            "description": "A custom adventure map for the video game Minecraft. It provides a unique series of puzzles , challenges, as well as a unique storyline for the player. I created this in my free time and it serves as an excellent example of my commitment and passion for design and development of all kinds. The current map has been well received and I've been hard at work on the sequel which will be released soon.",
+            "description": "A custom adventure map for the video game Minecraft. It provides a unique series of puzzles, challenges, as well as a unique storyline for the player. I created this in my free time and it serves as an excellent example of my commitment and passion for design and development of all kinds. The current map has been well received and I've been hard at work on the sequel which will be released soon.",
             "url": "http://endigodesign.com/minecraft/",
             "thumbnail": "img/project_thesource.jpg",
             "imgMobile": {
@@ -28,7 +58,8 @@
             "imgDesktop": {
                 "img001": "img/project_thesource_d001.jpg",
                 "img002": "img/project_thesource_d002.jpg"
-            }
+            },
+            "video": "//www.youtube.com/embed/AZYb_ltMy-s"
         },
         "directory": {
             "title": "App Directory",

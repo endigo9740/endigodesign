@@ -102,7 +102,8 @@ header {background: #dd473d; text-align: center;}
 #viewLive {background: #dd473d; font-size: 24px; width: 200px; margin: 20px auto 0; padding: 15px 0;}
 #innerBody {background: #ebebeb;}
 	#innerBody img {-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2); -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2); box-shadow: 0 0 10px rgba(0,0,0,0.2);}
-	#setMobile {float: left; margin: 0 40px 40px 0;}
+	#video {float: left; width: 320px; margin: 0 40px 40px 0;}
+	#setMobile {float: left; clear: left; margin: 0 40px 40px 0;}
 	#setDesktop {margin-top: 40px;}
 		#setMobile li+li, #setDesktop li+li {margin-top: 40px;}
 	#returnTop {border-top: 2px solid #CCC; color: #CCC; clear: both; display: block; font-size: 16px; line-height: 32px; font-weight: bold; margin-top: 40px; text-transform: uppercase;}
