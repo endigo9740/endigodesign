@@ -1,0 +1,5 @@
+<nav id="projectGrid" class="wrap">
+	<a ng-repeat="project in projects" href="/#/project/{{$index}}">
+		<img src="{{project.thumbnail}}" title="{{project.title}}" alt="{{project.title}}">
+	</a>
+</nav>
