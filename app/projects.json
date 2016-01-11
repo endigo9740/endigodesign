@@ -1,41 +1,49 @@
 {
     "projects": [
         {
-            "title": "Trivie Enterprise",
-            "type": "Mobile Web App",
-            "description": "Trivie Enterprise is the primary app created during my time at Trivie, Inc. The app is a learning and training reinforcement tool that utilizing trivia and gamification to make learning fun. I was responsible for all the wireframes, mockups, color scheme, and other design elements. I also utilized AngularJS to build the front end as a single page application. It features several complex CSS3 animations to give this web app a near native feel. The login and home screens can be customized to the company's brand.",
-            "url": "http://play.trivie.com",
+            "title": "Trivie for Business",
+            "type": "SaaS-Based Web and Mobile App",
+            "description": "Trivie for Business is a SaaS-based web app developed during my time at Trivie, Inc. The app is made up of both a client-facing mobile game and backend Management System for managing content, users, and general moderation. The app aids enterprise companies by using trivia and gamification to make employee training and reinforcement fun. I contributed to the planning, implementation and maintenance of this application. This includes all design, UI/UX, and the front end tech stack. Tech inlucded: AngularJS, CSS (for complex animations) and implementation of a RESTful Django API.",
+            "url": "http://www.trivie.com",
             "thumbnail": "../assets/img/thumbs/trivie.png",
             "imgMobile": [
-                {"path": "../assets/img/projects/project_trivie_m001.jpg"},
-                {"path": "../assets/img/projects/project_trivie_m003.jpg"},
-                {"path": "../assets/img/projects/project_trivie_m005.jpg"},
-                {"path": "../assets/img/projects/project_trivie_m006.jpg"},
-                {"path": "../assets/img/projects/project_trivie_m007.jpg"},
-                {"path": "../assets/img/projects/project_trivie_m009.jpg"}
+                {"path": "../assets/img/projects/project_trivie_m001.png"},
+                {"path": "../assets/img/projects/project_trivie_m002.png"},
+                {"path": "../assets/img/projects/project_trivie_m003.png"},
+                {"path": "../assets/img/projects/project_trivie_m004.png"},
+                {"path": "../assets/img/projects/project_trivie_m005.png"},
+                {"path": "../assets/img/projects/project_trivie_m006.png"},
+                {"path": "../assets/img/projects/project_trivie_m007.png"}
             ],
             "imgDesktop": [
                 {"path": "../assets/img/projects/project_trivie_d001.jpg"},
-                {"path": "../assets/img/projects/project_trivie_d002.jpg"}
+                {"path": "../assets/img/projects/project_trivie_d002.jpg"},
+                {"path": "../assets/img/projects/project_trivie_d003.jpg"},
+                {"path": "../assets/img/projects/project_trivie_d004.jpg"},
+                {"path": "../assets/img/projects/project_trivie_d005.jpg"}
             ]
         },
         {
             "title": "Trivie Website",
             "type": "Responsive Website Design",
-            "description": "I handled the planning, design, and implementation of the new Trivie.com homepage. The website is used primarily as a landing page for anyone interested in the company or our Trivie Enterprise learning app. The site utilizes an HTML5 video player for the homepage header.",
+            "description": "I handled the planning, design, and implementation of the Trivie website. This site provides both information about the company as well as a portal for signing up for multiple Trivie for Business SaaS plans.",
             "url": "http://www.trivie.com",
             "thumbnail": "../assets/img/thumbs/trivie-web.png",
             "imgMobile": [
                 {"path": "../assets/img/projects/project_trivieweb_m001.jpg"}
             ],
             "imgDesktop": [
-                {"path": "../assets/img/projects/project_trivieweb_d001.jpg"}
+                {"path": "../assets/img/projects/project_trivieweb_d001.jpg"},
+                {"path": "../assets/img/projects/project_trivieweb_d002.jpg"},
+                {"path": "../assets/img/projects/project_trivieweb_d003.jpg"},
+                {"path": "../assets/img/projects/project_trivieweb_d004.jpg"},
+                {"path": "../assets/img/projects/project_trivieweb_d005.jpg"}
             ]
         },
         {
             "title": "Jiffy Lube Marketing Portal",
             "type": "Custom MVC-Based CMS Portal",
-            "description": "A portal system for Jiffy Lube that allows franchise members to create promotions targeted towards their specific market needs. I developed the backend systems from the ground up using a custom PHP MVC (model view controller) software pattern. It was designed to work around Jiffy Lube's business logic. The backend utilizes a basic API to connect to the frontend, powered by AngularJS.",
+            "description": "A portal system for Jiffy Lube that allows franchise members to login and create promotions targeted towards their specific market needs. I developed the backend systems using a basic API that fed into an Angular powered front end.",
             "url": "http://offers.jiffylube.com/?adi=109",
             "thumbnail": "../assets/img/thumbs/jiffylube.png",
             "imgMobile": [
@@ -48,7 +56,7 @@
         {
             "title": "WeatherCaster",
             "type": "Responsive Website Design",
-            "description": "The first national mobile app created by the Belo Corporation. It was initially released for iPad to rave reviews but has since came to iPhone, iPod and Android. I was responsible for the creation of the promotional website, social site branding, and several content sections within the app itself.",
+            "description": "The first nationally available mobile app created and distributed by the Belo Corporation. Initially launching to rave reviews on iPad only, it has since released on iPhone, iPod and Android. I was responsible for the creation of the promotional website, social branding, and several web view sections within the app itself.",
             "url": "http://www.weathercasterapp.com",
             "thumbnail": "../assets/img/thumbs/weathercaster.png",
             "imgMobile": [
@@ -61,7 +69,7 @@
         {
             "title": "App Directory",
             "type": "Responsive Website Design",
-            "description": "This project was created for Belo as a directory listing of mobile apps, separated by station. The homepage shows the list of apps available for that station - including national WeatherCaster app. Each app page details a variety of information about the app - including links to each marketplace as well as links to share this page on a social site. Finally, I created a fully functional admin CMS to manage all of this content. It includes separate logins for each station and allows them to add, edit, hide, or delete apps in a few clicks. They can also reposition the apps into the various size positions on the homepage, including: banner, featured, or grid.",
+            "description": "This project was created for Belo as a directory listing of mobile apps, separated by station. Each app page included details about the app and links to download. It was developed with a custom built, fully functional CMS for adding or managing each listed application.",
             "url": "http://q.belo.com/shared/mobappdir/v3/",
             "thumbnail": "../assets/img/thumbs/mad.png",
             "imgMobile": [
@@ -75,7 +83,7 @@
         {
             "title": "STATS Sports",
             "type": "Dashboard & Responsive Pages",
-            "description": "The STATS dashboard allows users to generate STATS sports content widgets for use within the Belo hybrid mobile apps. Widgets can be generated for all major sports and several customization options are available, such as header color. Score data is updated automatically at the date and time the game occurs. This also combines multiple sections for the selected team or sport using a tabbed navigation section along the top.",
+            "description": "The STATS dashboard allows Belo’s news stations to generate STATS sports content within their hybrid mobile apps. The views could be generated for all major sports with several customization options are available. Score data updated automatically at the date and time the game occurred.",
             "url": "http://q.belo.com/shared/stats_mobile/dashboard.html",
             "thumbnail": "../assets/img/thumbs/stats.png",
             "imgMobile": [
@@ -89,7 +97,7 @@
         {
             "title": "ConnecTV Promo",
             "type": "Responsive Promotional Page",
-            "description": "A promotional section created for Belo after their partnership with ConnecTV. This page was used on each station’s dot com website as well as a tabbed section within their core Facebook pages.",
+            "description": "A promotional section created for Belo during a partnership with ConnecTV. This page was used within each station’s website and social sites.",
             "url": "http://q.belo.com/shared/connectv/?station=wfaa",
             "thumbnail": "../assets/img/thumbs/connectv.png",
             "imgMobile": [
@@ -112,7 +120,7 @@
         {
             "title": "Ustream Player",
             "type": "Responsive Ustream Player",
-            "description": "This template allows each Belo station broadcast a live video stream via the Ustream service. Belo recently migrated to a new streaming service so this has been depreciated.",
+            "description": "This template allows each Belo station broadcast a live video stream via the Ustream service. Belo has since migrated to a new streaming service so this has been depreciated.",
             "url": "http://q.belo.com/shared/ustream/?station=khou",
             "thumbnail": "../assets/img/thumbs/ustream.png",
             "imgMobile": [
@@ -125,7 +133,7 @@
         {
             "title": "WCNC Traffic Map",
             "type": "Responsive Traffic Map",
-            "description": "An interactive traffic maps using an open API feed from Traffic.com. It displays current traffic conditions around Charlotte, NC.",
+            "description": "An interactive traffic maps using an open API feed from Traffic.com. Displays current traffic conditions around Charlotte, NC.",
             "url": "http://q.belo.com/wcnc/traffic/",
             "thumbnail": "../assets/img/thumbs/wcnctraffic.png",
             "imgMobile": [
@@ -138,7 +146,7 @@
         {
             "title": "Titan",
             "type": "Custom Minecraft Map",
-            "description": "The follow up to my Minecraft adventure map series. I stepped up my game and brought a new level of design, gameplay, and story for players to enjoy. This hobby project took around 6 months to complete and has been played by some of the biggest Let's Play members in the community.",
+            "description": "The follow up to my Minecraft adventure map series. I stepped up my game and brought a new level of design, gameplay, and story for players to enjoy. This hobby project took around 6 months to complete and has been played by some of the biggest Let's Play members in the Minecraft community.",
             "url": "http://endigodesign.com/minecraft/",
             "thumbnail": "../assets/img/thumbs/titan.png",
             "imgMobile": [
@@ -155,7 +163,7 @@
         {
             "title": "The Source",
             "type": "Custom Minecraft Map",
-            "description": "A custom adventure map for the video game Minecraft. It provides a unique series of puzzles, challenges, as well as a unique storyline for the player. I created this in my free time and it serves as an excellent example of my commitment and passion for design and development of all kinds. The current map has been well received and I've been hard at work on the sequel which will be released soon.",
+            "description": "A custom adventure map for the video game Minecraft. It provides a unique series of puzzles, challenges, and unique storyline for the player. I created this in my free time and it serves as an excellent example of my commitment and passion for design and development of all kinds.",
             "url": "http://endigodesign.com/minecraft/?map=thesource",
             "thumbnail": "../assets/img/thumbs/thesource.png",
             "imgMobile": [
