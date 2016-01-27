@@ -21,7 +21,7 @@ a {text-decoration: none;}
 
 #clouds {
 	background: url('../img/header-clouds.png') center center repeat-x; height: 200px; margin-top: 50px;
-	/*-webkit-animation: animatedBackground 100s linear infinite; -moz-animation: animatedBackground 100s linear infinite; animation: animatedBackground 100s linear infinite;*/
+	-webkit-animation: animatedBackground 100s linear infinite; -moz-animation: animatedBackground 100s linear infinite; animation: animatedBackground 100s linear infinite;
 }
 header {width: 465px; margin: -200px auto 40px;}
 @media (max-width: 960px) {
@@ -69,7 +69,7 @@ footer nav {padding: 40px 0; overflow: hidden;}
 
 /* === ANIMATIONS ==== */
 
-@-webkit-keyframes animatedBackground { 0% { background-position: 0 0; } 100% { background-position: -800px 0; } }
-@-moz-keyframes animatedBackground { 0% { background-position: 0 0; } 100% { background-position: -800px 0; } }
-@-ms-keyframes animatedBackground { 0% { background-position: 0 0; } 100% { background-position: -800px 0; } }
-@keyframes animatedBackground { 0% { background-position: 0 0; } 100% { background-position: -800px 0; } }
+@-webkit-keyframes animatedBackground { from { background-position: 0 0; } to { background-position: 100% 0; } }
+@-moz-keyframes animatedBackground { from { background-position: 0 0; } to { background-position: 100% 0; } }
+@-ms-keyframes animatedBackground { from { background-position: 0 0; } to { background-position: 100% 0; } }
+@keyframes animatedBackground { from { background-position: 0 0; } to { background-position: 100% 0; } }
