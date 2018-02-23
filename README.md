@@ -2,3 +2,5 @@
 __Mobile Web Developer__
 
 Version 7 - "Pixel Art Game Design"
+
+...
